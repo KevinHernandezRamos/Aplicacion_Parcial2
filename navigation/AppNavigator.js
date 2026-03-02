@@ -27,7 +27,6 @@ export default function AppNavigator() {
         component={Counter} 
         options={{ title: "Contador" }}
       />
-      {/* Nuevas Pantallas */}
       <Stack.Screen 
         name="AboutMe" 
         component={AboutMeScreen} 
